@@ -18,7 +18,6 @@ class Play extends Phaser.Scene {
     }
 
     create() {
-        
         var audio = new Audio('./assets/Boss Fight.ogg');
         audio.play();
         // place tile sprite
